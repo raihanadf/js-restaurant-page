@@ -1,26 +1,53 @@
 body {
 	margin: 0;
-	background-color: #ffeead;
+	background-color: #ffbcd1;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .divNav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #96ceb4;
+	background-color: #6867ac;
 	height: 3em;
 	gap: 1em;
 }
 
 .divNav button {
-	background-color: #78aca3;
+	background-color: #ffbcd1;
 	border: 0;
 	border-radius: 4px;
 	padding: 4px 12px 4px 12px;
 	font-weight: bold;
 }
 
+.divNav button:hover {
+	background-color: purple;
+}
+
+.bg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-height: 60vh;
+	padding: 50px;
+}
+
 .container {
+	background-color: #ce7bb0;
+	border-radius: 4px;
 	padding: 30px;
-	height: 100vh;
+	min-height: 40vh;
+	width: 100vh;
+}
+
+img {
+	width: 450px;
+	height: 350px;
+	object-fit: cover;
+}
+
+.header {
+	text-align: center;
 }
